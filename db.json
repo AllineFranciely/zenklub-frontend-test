@@ -98,15 +98,6 @@
         {
           "date": "2024-12-08",
           "appointments": [
-            { "time": "08:00", "isBooked": true },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -196,15 +187,6 @@
         {
           "date": "2024-12-15",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": true },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -294,15 +276,6 @@
         {
           "date": "2024-12-22",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -326,17 +299,12 @@
             { "time": "09:00", "isBooked": true },
             { "time": "10:00", "isBooked": false },
             { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
+            { "time": "14:00", "isBooked": true }
           ]
         },
         {
           "date": "2024-12-25",
           "appointments": [
-            
           ]
         },
         {
@@ -384,15 +352,6 @@
         {
           "date": "2024-12-29",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -416,11 +375,7 @@
             { "time": "09:00", "isBooked": true },
             { "time": "10:00", "isBooked": true },
             { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
+            { "time": "14:00", "isBooked": true }
           ]
         }
       ]
@@ -523,15 +478,6 @@
         {
           "date": "2024-12-08",
           "appointments": [
-            { "time": "08:00", "isBooked": true },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -621,15 +567,6 @@
         {
           "date": "2024-12-15",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": true },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -719,15 +656,6 @@
         {
           "date": "2024-12-22",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -751,25 +679,12 @@
             { "time": "09:00", "isBooked": true },
             { "time": "10:00", "isBooked": false },
             { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
+            { "time": "14:00", "isBooked": true }
           ]
         },
         {
           "date": "2024-12-25",
           "appointments": [
-            { "time": "08:00", "isBooked": true },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": true },
-            { "time": "11:00", "isBooked": true },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
           ]
         },
         {
@@ -817,15 +732,6 @@
         {
           "date": "2024-12-29",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -849,11 +755,7 @@
             { "time": "09:00", "isBooked": true },
             { "time": "10:00", "isBooked": true },
             { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
+            { "time": "14:00", "isBooked": true }
           ]
         }
       ]
@@ -956,15 +858,6 @@
         {
           "date": "2024-12-08",
           "appointments": [
-            { "time": "08:00", "isBooked": true },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -1054,15 +947,6 @@
         {
           "date": "2024-12-15",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": true },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -1152,15 +1036,6 @@
         {
           "date": "2024-12-22",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -1184,25 +1059,12 @@
             { "time": "09:00", "isBooked": true },
             { "time": "10:00", "isBooked": false },
             { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
+            { "time": "14:00", "isBooked": true }
           ]
         },
         {
           "date": "2024-12-25",
           "appointments": [
-            { "time": "08:00", "isBooked": true },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": true },
-            { "time": "11:00", "isBooked": true },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
           ]
         },
         {
@@ -1250,15 +1112,6 @@
         {
           "date": "2024-12-29",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -1282,11 +1135,7 @@
             { "time": "09:00", "isBooked": true },
             { "time": "10:00", "isBooked": true },
             { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
+            { "time": "14:00", "isBooked": true }
           ]
         }
       ]
@@ -1389,15 +1238,6 @@
         {
           "date": "2024-12-08",
           "appointments": [
-            { "time": "08:00", "isBooked": true },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -1487,15 +1327,6 @@
         {
           "date": "2024-12-15",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": true },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -1585,15 +1416,6 @@
         {
           "date": "2024-12-22",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -1617,25 +1439,12 @@
             { "time": "09:00", "isBooked": true },
             { "time": "10:00", "isBooked": false },
             { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
+            { "time": "14:00", "isBooked": true }
           ]
         },
         {
           "date": "2024-12-25",
           "appointments": [
-            { "time": "08:00", "isBooked": true },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": true },
-            { "time": "11:00", "isBooked": true },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
           ]
         },
         {
@@ -1683,15 +1492,6 @@
         {
           "date": "2024-12-29",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -1715,11 +1515,7 @@
             { "time": "09:00", "isBooked": true },
             { "time": "10:00", "isBooked": true },
             { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
+            { "time": "14:00", "isBooked": true }
           ]
         }
       ]
@@ -1822,15 +1618,6 @@
         {
           "date": "2024-12-08",
           "appointments": [
-            { "time": "08:00", "isBooked": true },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -1920,15 +1707,6 @@
         {
           "date": "2024-12-15",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": true },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -2018,15 +1796,6 @@
         {
           "date": "2024-12-22",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -2050,25 +1819,12 @@
             { "time": "09:00", "isBooked": true },
             { "time": "10:00", "isBooked": false },
             { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
+            { "time": "14:00", "isBooked": true }
           ]
         },
         {
           "date": "2024-12-25",
           "appointments": [
-            { "time": "08:00", "isBooked": true },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": true },
-            { "time": "11:00", "isBooked": true },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
           ]
         },
         {
@@ -2116,15 +1872,6 @@
         {
           "date": "2024-12-29",
           "appointments": [
-            { "time": "08:00", "isBooked": false },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": false },
-            { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": false },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": false },
-            { "time": "17:00", "isBooked": false },
-            { "time": "18:00", "isBooked": false }
           ]
         },
         {
@@ -2148,11 +1895,7 @@
             { "time": "09:00", "isBooked": true },
             { "time": "10:00", "isBooked": true },
             { "time": "11:00", "isBooked": false },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
+            { "time": "14:00", "isBooked": true }
           ]
         }
       ]
