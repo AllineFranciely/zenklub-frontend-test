@@ -13,6 +13,8 @@ Este projeto é uma aplicação frontend para agendamento de sessões com profis
 - json-server: Para simulação de uma API REST.
 - Axios: Para realizar requisições HTTP.
 
+---
+
 ## 📂 Estrutura do Projeto
 ├── public/
 ├── src/
@@ -24,6 +26,8 @@ Este projeto é uma aplicação frontend para agendamento de sessões com profis
 │   ├── index.tsx         // Ponto de entrada do React
 │   ├── styles/           // Estilos globais e temáticos
 └── README.md
+
+---
 
 ## ⚙️ Pré-requisitos
 Certifique-se de ter instalado em sua máquina:
