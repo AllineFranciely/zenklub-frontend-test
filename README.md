@@ -103,4 +103,5 @@ Este projeto está licenciado sob a MIT License.
 
 ## 👨‍💻 Autor
 Alline Franciely Silva
+
 Sinta-se à vontade para contribuir ou sugerir melhorias! 😊
