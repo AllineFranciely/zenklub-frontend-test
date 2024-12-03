@@ -79,7 +79,9 @@ Os testes foram implementados utilizando o framework Jest juntamente com a React
 
 # Rodando os Testes
 Para rodar os testes automatizados, basta executar o seguinte comando:
+
 npm test
+
 Isso iniciará o Jest e executará todos os testes na aplicação. Os testes verificam a funcionalidade de componentes como Schedule e DoctorCard, e verificam se os horários são corretamente exibidos, se os agendamentos funcionam e se os modais aparecem conforme esperado.
 
 # Estrutura dos Testes
