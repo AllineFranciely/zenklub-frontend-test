@@ -105,3 +105,10 @@ Este projeto está licenciado sob a MIT License.
 Alline Franciely Silva
 
 Sinta-se à vontade para contribuir ou sugerir melhorias! 😊
+
+---
+
+# Imagens do projeto
+![image](https://github.com/user-attachments/assets/50edde39-0fe2-48a7-ba62-6aca3770dd5b)
+![image](https://github.com/user-attachments/assets/fd45dfce-4533-45af-bdc2-aa076ba6336b)
+
