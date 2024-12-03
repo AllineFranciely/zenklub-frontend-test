@@ -16,10 +16,10 @@ const DoctorCard = ({ doctor, onClick }: any) => {
           <h3>{doctor.name}</h3>
           <div className="info">
             <p><strong>{doctor.specialty}</strong> | {doctor.location}</p>
-            <p>
-              {Array(fullStars).fill('⭐').join('')}
-              {Array(emptyStars).fill('☆').join('')} <p>{doctor.reviews} reviews</p>
-            </p>
+            <div>
+              <span>{Array(fullStars).fill("⭐").join("")}</span>
+              <span>{Array(emptyStars).fill("☆").join("")} {doctor.reviews} reviews</span>
+            </div>
             <p className="price">R${doctor.price} / {doctor.time} MINUTES</p>
           </div>
         </DetailsContainer>

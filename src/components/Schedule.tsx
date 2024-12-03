@@ -7,8 +7,7 @@ const Schedule = ({ doctor }: any) => {
 
   useEffect(() => {
     const doctorSchedule = doctor.schedule.find(
-      (schedule: any) =>
-        new Date(schedule.date).toDateString() === selectedDate.toDateString()
+      (schedule: any) => schedule.date === selectedDate.toISOString().split("T")[0]
     );
 
     if (doctorSchedule) {
