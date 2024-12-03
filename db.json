@@ -336,15 +336,7 @@
         {
           "date": "2024-12-25",
           "appointments": [
-            { "time": "08:00", "isBooked": true },
-            { "time": "09:00", "isBooked": true },
-            { "time": "10:00", "isBooked": true },
-            { "time": "11:00", "isBooked": true },
-            { "time": "14:00", "isBooked": true },
-            { "time": "15:00", "isBooked": true },
-            { "time": "16:00", "isBooked": true },
-            { "time": "17:00", "isBooked": true },
-            { "time": "18:00", "isBooked": true }
+            
           ]
         },
         {
