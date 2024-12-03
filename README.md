@@ -12,11 +12,18 @@ Este projeto é uma aplicação frontend para agendamento de sessões com profis
 - styled-components: Para estilização dinâmica e componentes reutilizáveis.
 - json-server: Para simulação de uma API REST.
 - Axios: Para realizar requisições HTTP.
-  
----
 
 ## 📂 Estrutura do Projeto
-public/ src/ ├── components/ │ ├── Schedule.tsx // Componente principal para exibição de horários ├── api/ │ ├── db.json // Dados simulados da API ├── App.tsx // Componente raiz da aplicação ├── index.tsx // Ponto de entrada do React ├── styles/ // Estilos globais e temáticos └── README.md
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Schedule.tsx  // Componente principal para exibição de horários
+│   ├── api/
+│   │   ├── db.json       // Dados simulados da API
+│   ├── App.tsx           // Componente raiz da aplicação
+│   ├── index.tsx         // Ponto de entrada do React
+│   ├── styles/           // Estilos globais e temáticos
+└── README.md
 
 ## ⚙️ Pré-requisitos
 Certifique-se de ter instalado em sua máquina:
