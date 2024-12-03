@@ -49,6 +49,16 @@ const Card = styled.div`
   &:hover {
     background-color: #f9f9f9;
   }
+
+  @media (max-width: 768px) {
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px;
+    margin: 10px 0;
+  }
 `;
 
 const InfoContainer = styled.div`
@@ -56,6 +66,12 @@ const InfoContainer = styled.div`
   flex-direction: row;
   gap: 20px;
   align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -67,6 +83,16 @@ const DoctorImage = styled.img`
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+
+  @media (max-width: 768px) {
+    width: 150px;
+    height: 150px;
+  }
+
+  @media (max-width: 480px) {
+    width: 120px;
+    height: 120px;
+  }
 `;
 
 const DetailsContainer = styled.div`
@@ -103,6 +129,20 @@ const DetailsContainer = styled.div`
     font-weight: bold;
     text-align: left;
   }
+
+  @media (max-width: 768px) {
+    padding: 5px;
+  }
+
+  @media (max-width: 480px) {
+    h3 {
+      font-size: 1.1rem;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+  }
 `;
 
 const DescriptionContainer = styled.div`
@@ -112,4 +152,13 @@ const DescriptionContainer = styled.div`
   font-style: italic;
   color: #555;
   text-align: left;
+
+  @media (max-width: 768px) {
+    margin-top: 5px;
+    padding-top: 5px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+  }
 `;

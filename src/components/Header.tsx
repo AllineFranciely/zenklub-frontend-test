@@ -19,7 +19,9 @@ const HeaderContainer = styled.div`
   padding: 20px 0;
   background-color: ${zenklubPurple};
   color: white;
-  margin-bottom: 30px;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
 `;
 
 const Title = styled.h1`

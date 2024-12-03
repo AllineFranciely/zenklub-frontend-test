@@ -61,7 +61,9 @@ const Schedule = ({ doctor }: any) => {
       });
 
       setAvailableAppointments(updatedAppointments);
-      setIsModalOpen(false);
+      setTimeout(() => {
+        setIsModalOpen(false);
+      }, 1000);
     }
   };
 

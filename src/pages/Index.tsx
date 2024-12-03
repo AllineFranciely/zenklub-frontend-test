@@ -87,6 +87,10 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 20px;
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
 `;
 
 const DoctorAppointments = styled.div`
@@ -94,6 +98,10 @@ const DoctorAppointments = styled.div`
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    gap: 15px;
+  }
 `;
 
 const DoctorScheduleWrapper = styled.div`
@@ -104,4 +112,10 @@ const DoctorScheduleWrapper = styled.div`
   width: 100%;
   max-width: 1200px;
   padding: 20px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
 `;

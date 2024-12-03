@@ -12,6 +12,8 @@ const modalStyles = {
     borderRadius: "10px",
     backgroundColor: "#fff",
     boxShadow: "0 4px 15px rgba(0, 0, 0, 0.1)",
+    maxWidth: "90%",
+    minWidth: "300px",
   },
   overlay: {
     backgroundColor: "rgba(0, 0, 0, 0.5)",
@@ -82,6 +84,15 @@ const Form = styled.div`
   div {
     display: flex;
     gap: 10px;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 768px) {
+    padding: 15px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 10px;
   }
 `;
 
@@ -92,9 +103,14 @@ const Button = styled.button`
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  flex-grow: 1;
 
   &:hover {
     background-color: #0056b3;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
   }
 `;
 
@@ -102,4 +118,9 @@ const Message = styled.p`
   color: green;
   font-weight: bold;
   margin-top: 10px;
+  text-align: center;
+  
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+  }
 `;
