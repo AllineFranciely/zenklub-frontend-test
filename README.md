@@ -16,7 +16,7 @@ Este projeto é uma aplicação frontend para agendamento de sessões com profis
 ---
 
 ## 📂 Estrutura do Projeto
-├── public/
+``├── public/
 ├── src/
 │   ├── components/
 │   │   ├── Schedule.tsx  // Componente principal para exibição de horários
@@ -25,7 +25,7 @@ Este projeto é uma aplicação frontend para agendamento de sessões com profis
 │   ├── App.tsx           // Componente raiz da aplicação
 │   ├── index.tsx         // Ponto de entrada do React
 │   ├── styles/           // Estilos globais e temáticos
-└── README.md
+└── README.md ``
 
 ---
 
