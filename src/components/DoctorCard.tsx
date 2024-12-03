@@ -2,21 +2,28 @@ import React from "react";
 import styled from "styled-components";
 
 const DoctorCard = ({ doctor, onClick }: any) => {
+  const totalReviews = doctor.reviews || 0;
+  const fullStars = Math.min(Math.floor(totalReviews / 5), 5);
+  const emptyStars = 5 - fullStars; 
+
   return (
     <Card onClick={onClick}>
       <InfoContainer>
         <ImageContainer>
           <DoctorImage src={`/images/${doctor.photo}`} alt={doctor.name} />
         </ImageContainer>
-
         <DetailsContainer>
           <h3>{doctor.name}</h3>
-          <p><strong>{doctor.specialty}</strong> | {doctor.location}</p>
-          <p>{doctor.reviews} reviews</p>
-          <p>R${doctor.price}</p>
+          <div className="info">
+            <p><strong>{doctor.specialty}</strong> | {doctor.location}</p>
+            <p>
+              {Array(fullStars).fill('⭐').join('')}
+              {Array(emptyStars).fill('☆').join('')} <p>{doctor.reviews} reviews</p>
+            </p>
+            <p className="price">R${doctor.price} / {doctor.time} MINUTES</p>
+          </div>
         </DetailsContainer>
       </InfoContainer>
-
       <DescriptionContainer>
         <p>{doctor.description}</p>
       </DescriptionContainer>
@@ -56,8 +63,8 @@ const ImageContainer = styled.div`
 `;
 
 const DoctorImage = styled.img`
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
 `;
@@ -65,8 +72,33 @@ const DoctorImage = styled.img`
 const DetailsContainer = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 0px;
+  gap: 5px;
+  padding: 10px;
+
+  h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  p {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .info p {
+    margin: 0;
+  }
+
+  .price {
+    font-weight: bold;
+  }
 `;
 
 const DescriptionContainer = styled.div`

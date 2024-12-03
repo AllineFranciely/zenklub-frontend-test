@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+Zenklub Frontend Challenge
+Este projeto é uma aplicação frontend para agendamento de sessões com profissionais. Ele utiliza React, TypeScript, e styled-components para estilização. Além disso, uma API simulada é implementada com o json-server para manipular os dados de agendamentos.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Tecnologias Utilizadas
+React: Biblioteca para construção de interfaces de usuário.
+TypeScript: Superset do JavaScript que adiciona tipagem estática.
+styled-components: Para estilização dinâmica e componentes reutilizáveis.
+json-server: Para simulação de uma API REST.
+Axios: Para realizar requisições HTTP.
 
-## Available Scripts
+📂 Estrutura do Projeto
+plaintext
+Copiar código
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Schedule.tsx  // Componente principal para exibição de horários
+│   ├── api/
+│   │   ├── db.json       // Dados simulados da API
+│   ├── App.tsx           // Componente raiz da aplicação
+│   ├── index.tsx         // Ponto de entrada do React
+│   ├── styles/           // Estilos globais e temáticos
+└── README.md
 
-In the project directory, you can run:
+⚙️ Pré-requisitos
+Certifique-se de ter instalado em sua máquina:
 
-### `npm start`
+Node.js: v14 ou superior.
+npm ou yarn: Gerenciador de pacotes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+📦 Instalação
+Clone este repositório:
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Entre na pasta do projeto:
+cd zenklub-frontend-test
 
-### `npm test`
+Instale as dependências:
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+💻 Rodando o Projeto
+Inicie a API simulada com o json-server:
+npm run start-api
+A API estará disponível em http://localhost:5000.
 
-### `npm run build`
+Inicie o servidor de desenvolvimento:
+npm start
+O frontend estará disponível em http://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🛠 Funcionalidades
+Exibição de profissionais com informações detalhadas.
+Navegação entre datas para verificar horários disponíveis.
+Agendamento de horários, alterando dinamicamente o estado de disponibilidade.
+API simulada para carregar e atualizar dados.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📝 Rotas da API Simulada
+GET /doctors
+Retorna a lista de profissionais cadastrados.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+PUT /doctors/:id
+Atualiza os dados de um profissional, incluindo os agendamentos.
 
-### `npm run eject`
+🎨 Estilo
+O projeto utiliza styled-components para criar estilos dinâmicos, com suporte a temas e reutilização de componentes estilizados.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+📜 Licença
+Este projeto está licenciado sob a MIT License.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+👨‍💻 Autor
+Alline Franciely Silva
+Sinta-se à vontade para contribuir ou sugerir melhorias! 😊
