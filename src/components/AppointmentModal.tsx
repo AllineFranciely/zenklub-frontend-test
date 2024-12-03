@@ -14,6 +14,7 @@ const modalStyles = {
     boxShadow: "0 4px 15px rgba(0, 0, 0, 0.1)",
     maxWidth: "90%",
     minWidth: "300px",
+    maxHeight: "400px",
   },
   overlay: {
     backgroundColor: "rgba(0, 0, 0, 0.5)",
@@ -89,6 +90,7 @@ const Form = styled.div`
 
   @media (max-width: 768px) {
     padding: 15px;
+    maxHeight: "40vh",
   }
 
   @media (max-width: 480px) {

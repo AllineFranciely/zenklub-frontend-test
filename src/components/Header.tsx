@@ -28,6 +28,10 @@ const Title = styled.h1`
   font-size: 2rem;
   font-weight: bold;
   margin: 0;
+
+  @media (max-width: 400px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const Subtitle = styled.p`
