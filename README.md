@@ -7,16 +7,15 @@ Este projeto é uma aplicação frontend para agendamento de sessões com profis
 ---
 
 ## 🚀 Tecnologias Utilizadas
-- ** React**: Biblioteca para construção de interfaces de usuário.
-- ** TypeScript**: Superset do JavaScript que adiciona tipagem estática.
-- ** styled-components**: Para estilização dinâmica e componentes reutilizáveis.
-- ** json-server**: Para simulação de uma API REST.
-- ** Axios**: Para realizar requisições HTTP.
+- React: Biblioteca para construção de interfaces de usuário.
+- TypeScript: Superset do JavaScript que adiciona tipagem estática.
+- styled-components: Para estilização dinâmica e componentes reutilizáveis.
+- json-server: Para simulação de uma API REST.
+- Axios: Para realizar requisições HTTP.
   
 ---
 
 ## 📂 Estrutura do Projeto
-
 ├── public/
 ├── src/
 │   ├── components/
@@ -27,8 +26,6 @@ Este projeto é uma aplicação frontend para agendamento de sessões com profis
 │   ├── index.tsx         // Ponto de entrada do React
 │   ├── styles/           // Estilos globais e temáticos
 └── README.md
-
----
 
 ## ⚙️ Pré-requisitos
 Certifique-se de ter instalado em sua máquina:
