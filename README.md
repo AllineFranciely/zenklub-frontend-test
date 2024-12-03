@@ -68,6 +68,32 @@ O projeto utiliza styled-components para criar estilos dinâmicos, com suporte a
 
 ---
 
+## 🧪 Testes Automatizados
+# Configuração para Testes
+Os testes foram implementados utilizando o framework Jest juntamente com a React Testing Library. O objetivo dos testes é garantir que os componentes funcionem corretamente, com ênfase na renderização, interatividade e integração com a API simulada.
+
+# Bibliotecas de Teste Utilizadas
+- Jest: Framework para execução de testes unitários e de integração.
+- React Testing Library: Utilizada para testar a renderização de componentes e interações do usuário.
+- @testing-library/jest-dom: Extensão do Jest para assertivas de DOM.
+
+# Rodando os Testes
+Para rodar os testes automatizados, basta executar o seguinte comando:
+npm test
+Isso iniciará o Jest e executará todos os testes na aplicação. Os testes verificam a funcionalidade de componentes como Schedule e DoctorCard, e verificam se os horários são corretamente exibidos, se os agendamentos funcionam e se os modais aparecem conforme esperado.
+
+# Estrutura dos Testes
+Os testes estão localizados na pasta src/__tests__, com os seguintes arquivos:
+- DoctorCard.test.tsx: Testes para o componente DoctorCard.
+- Schedule.test.tsx: Testes para o componente Schedule.
+
+# Resolução de Erros Comuns
+Se você encontrar problemas com os testes, como o erro de "TextEncoder is not defined" ou outros relacionados ao ambiente de testes, siga estas etapas:
+- Instale dependências adicionais se necessário, como text-encoding.
+- Certifique-se de que a configuração do Jest esteja correta, especialmente se estiver utilizando React Testing Library.
+
+---
+
 ## 📜 Licença
 Este projeto está licenciado sob a MIT License.
 

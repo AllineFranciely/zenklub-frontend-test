@@ -1741,7 +1741,7 @@
       "location": "Lisbon",
       "photo": "Sirlei.jpg",
       "time": "50",
-      "description": "Estou aqui para ajudá-lo(a) a lidar com os desafios, a buscar uma vida mais plena e a construir um futuro mais saudável e satisfatório. Se você está pronto(a) para iniciar essa jornada de transformação, estou à disposição para caminhar ao seu lado.",
+      "description": "I'm here to help you deal with challenges, seek a fuller life and build a healthier and more satisfying future. If you are ready to start this journey of transformation, I am available to walk alongside you.",
       "schedule": [
         {
           "date": "2024-12-02",
@@ -2164,23 +2164,6 @@
           ]
         }
       ]
-    }
-  ],
-  "appointments": [
-    {
-      "doctorId": "1",
-      "time": "08:00",
-      "isBooked": false
-    },
-    {
-      "doctorId": "1",
-      "time": "08:30",
-      "isBooked": false
-    },
-    {
-      "doctorId": "2",
-      "time": "09:00",
-      "isBooked": true
     }
   ]
 }

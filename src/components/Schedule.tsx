@@ -1,9 +1,17 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
+import Modal from "react-modal";
+import AppointmentModal from "./AppointmentModal";
+
+if (process.env.NODE_ENV !== "test") {
+  Modal.setAppElement("#root");
+}
 
 const Schedule = ({ doctor }: any) => {
   const [selectedDate, setSelectedDate] = useState<Date>(new Date());
   const [availableAppointments, setAvailableAppointments] = useState<any[]>([]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedTime, setSelectedTime] = useState<string | null>(null);
 
   useEffect(() => {
     const doctorSchedule = doctor.schedule.find(
@@ -33,13 +41,28 @@ const Schedule = ({ doctor }: any) => {
     });
   };
 
-  const handleBookAppointment = (time: string) => {
-    const updatedAppointments = availableAppointments.map((appointment: any) =>
-      appointment.time === time ? { ...appointment, isBooked: true } : appointment
-    );
+  const handleOpenModal = (time: string) => {
+    setSelectedTime(time);
+    setIsModalOpen(true);
+  };
 
-    setAvailableAppointments(updatedAppointments);
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
 
+  const handleBookAppointment = (name: string, email: string) => {
+    if (name && email) {
+      const updatedAppointments = availableAppointments.map((appointment: any) => {
+        if (appointment.time === selectedTime && !appointment.isBooked) {
+          appointment.isBooked = true;
+          appointment.patient = { name, email };
+        }
+        return appointment;
+      });
+
+      setAvailableAppointments(updatedAppointments);
+      setIsModalOpen(false);
+    }
   };
 
   return (
@@ -54,7 +77,6 @@ const Schedule = ({ doctor }: any) => {
           <DateDisplay>{selectedDate.toLocaleDateString()}</DateDisplay>
           <ArrowButton onClick={handleNextDay}>{">"}</ArrowButton>
         </DateNavigation>
-
         <AvailableAppointments>
           {availableAppointments.length > 0 ? (
             availableAppointments.map((appointment: any, index: number) => (
@@ -62,9 +84,7 @@ const Schedule = ({ doctor }: any) => {
                 key={index}
                 isBooked={appointment.isBooked}
                 disabled={appointment.isBooked}
-                onClick={() =>
-                  !appointment.isBooked && handleBookAppointment(appointment.time)
-                }
+                onClick={() => !appointment.isBooked && handleOpenModal(appointment.time)}
               >
                 {appointment.time}
               </AppointmentSlot>
@@ -74,6 +94,12 @@ const Schedule = ({ doctor }: any) => {
           )}
         </AvailableAppointments>
       </ScheduleContainer>
+      <AppointmentModal
+        isOpen={isModalOpen}
+        onRequestClose={handleCloseModal}
+        onSave={handleBookAppointment}
+        selectedTime={selectedTime}
+      />
     </Card>
   );
 };
@@ -148,6 +174,7 @@ const AppointmentSlot = styled.button<{ isBooked: boolean; disabled: boolean }>`
   text-align: center;
 
   &:hover {
-    background-color: ${({ isBooked }) => (isBooked ? "#ccc" : "#0056b3")};
+    background-color: ${({ isBooked }) =>
+      isBooked ? "#ccc" : "#0056b3"};
   }
 `;

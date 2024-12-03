@@ -3,6 +3,7 @@ import axios from "axios";
 import DoctorCard from "../components/DoctorCard";
 import Schedule from "../components/Schedule";
 import styled from "styled-components";
+import Header from "../components/Header";
 
 const App: React.FC = () => {
   const [doctors, setDoctors] = useState<any[]>([]);
@@ -12,32 +13,28 @@ const App: React.FC = () => {
     axios.get("http://localhost:5000/doctors").then((response) => {
       setDoctors(response.data);
     });
-
-    axios.get("http://localhost:5000/appointments").then((response) => {
-      setAppointments(response.data);
-    });
   }, []);
 
   return (
-    <Container>
-      <h1>Bem-vindo ao Zenklub</h1>
-      <p>Escolha um médico e agende sua consulta.</p>
+    <div>
+      <Header />
+      <Container>
+        <DoctorAppointments>
+          {doctors.map((doctor) => {
+            const doctorAppointments = appointments.filter(
+              (appointment: any) => appointment.doctorId === doctor.id
+            );
 
-      <DoctorAppointments>
-        {doctors.map((doctor) => {
-          const doctorAppointments = appointments.filter(
-            (appointment: any) => appointment.doctorId === doctor.id
-          );
-
-          return (
-            <DoctorScheduleWrapper key={doctor.id}>
-              <DoctorCard doctor={doctor} />
-              <Schedule doctor={doctor} appointments={doctorAppointments} />
-            </DoctorScheduleWrapper>
-          );
-        })}
-      </DoctorAppointments>
-    </Container>
+            return (
+              <DoctorScheduleWrapper key={doctor.id}>
+                <DoctorCard doctor={doctor} />
+                <Schedule doctor={doctor} appointments={doctorAppointments} />
+              </DoctorScheduleWrapper>
+            );
+          })}
+        </DoctorAppointments>
+      </Container>
+    </div>
   );
 };
 

@@ -4,7 +4,7 @@ import styled from "styled-components";
 const DoctorCard = ({ doctor, onClick }: any) => {
   const totalReviews = doctor.reviews || 0;
   const fullStars = Math.min(Math.floor(totalReviews / 5), 5);
-  const emptyStars = 5 - fullStars; 
+  const emptyStars = 5 - fullStars;
 
   return (
     <Card onClick={onClick}>
@@ -74,30 +74,34 @@ const DetailsContainer = styled.div`
   flex-direction: column;
   gap: 5px;
   padding: 10px;
+  width: 100%;
 
   h3 {
     margin: 0;
     font-size: 1.2rem;
+    text-align: left;
   }
 
   p {
     margin: 0;
     font-size: 1rem;
+    text-align: left;
   }
 
   .info {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    flex-wrap: wrap;
+    gap: 5px;
   }
 
   .info p {
     margin: 0;
+    font-size: 1rem;
   }
 
   .price {
     font-weight: bold;
+    text-align: left;
   }
 `;
 
@@ -107,4 +111,5 @@ const DescriptionContainer = styled.div`
   border-top: 1px solid #ddd;
   font-style: italic;
   color: #555;
+  text-align: left;
 `;

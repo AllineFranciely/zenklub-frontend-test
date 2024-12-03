@@ -1,8 +1,11 @@
 module.exports = {
   preset: "ts-jest",
-  testEnvironment: "jest-environment-jsdom", // Configura o ambiente correto
+  testEnvironment: "jest-environment-jsdom",
+  transformIgnorePatterns: [
+    "/node_modules/(?!axios)", // Faz o Jest transformar os módulos do axios
+  ],
   moduleNameMapper: {
-    "\\.(css|less|scss|sass)$": "identity-obj-proxy", // Ignorar arquivos de estilo
+    "^react-router-dom$": "<rootDir>/src/__mocks__/react-router-dom.js",
   },
-  setupFilesAfterEnv: ["@testing-library/jest-dom"], // Extensões de teste
+  setupFilesAfterEnv: ["@testing-library/jest-dom"],
 };
